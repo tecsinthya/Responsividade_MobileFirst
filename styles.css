@@ -1,9 +1,18 @@
+
 :root{
-    --cor:red;
-    --fonte-tamanho: 30px;
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFF;
+    --amarelo: #fecd2f;
+    --roxo: #C75EEB;  
+    --fonte-tamanho-padrao: 16px;  
 }
 
-body {
-   color:var(--cor);
-   font-size: var(--fonte-tamanho);
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: var(--fonte-tamanho-padrao);
+    font-weight: 400;
+}
+
+h1{
+    background-color:  var(--branco);
 }
